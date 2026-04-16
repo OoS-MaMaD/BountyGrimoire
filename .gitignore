@@ -1,0 +1,49 @@
+# CLAUDE.md is generated dynamically by /load-program — never commit
+CLAUDE.md
+
+# Environment variables — secrets
+.env
+*.env
+.env.local
+
+# Credentials & sessions
+accounts/
+sessions/
+memory/
+
+# Reports — contain targets and PoCs
+report-*.md
+reports/
+
+# Claude Code local settings (may contain user-specific paths)
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temp files
+/tmp/
+*.tmp
+*.log

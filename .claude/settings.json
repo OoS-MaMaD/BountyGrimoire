@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "WebFetch(*)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)"
+    ],
+    "deny": [
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~*)",
+      "Bash(dd *)",
+      "Bash(mkfs*)",
+      "Bash(chmod -R 777 /*)",
+      "Bash(sudo rm*)",
+      "Bash(sudo dd*)",
+      "Bash(sudo mkfs*)",
+      "Read(.env*)",
+      "Read(~/.ssh/*)",
+      "Read(~/.gnupg/*)",
+      "Read(~/.aws/*)"
+    ]
+  }
+}
